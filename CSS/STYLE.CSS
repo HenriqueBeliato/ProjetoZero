@@ -1,0 +1,152 @@
+/* resetar os elementos = comentar (ctrl + ;)*/
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: 
+    border-box;
+}
+/*global*/
+/*Fonte*/
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*cor da fonte*/
+h1,p{
+    color:aliceblue
+}
+
+/*tamanho fonte*/
+h1{
+    font-size: 52px;
+    font-weight: 200;
+}
+
+ul{
+    list-style: none;
+}
+
+/*classes*/
+.container{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+/*puxar imagem e editar bordas e imagem*/
+.topo-container{
+    background-image: url('../IMG/bgBanner.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 10em 0;
+    text-align: center;
+}
+
+/*Alteração botão*/
+.topo-container input{
+    padding: 10px 25px;
+    background-color: #333;
+    color: aliceblue;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/*Modificando a segunda parte*/
+.conteudo1-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    /* padding: 5em 5em; */
+}
+
+.paragrafo1{
+    width: 40%;
+    padding: 30px 50px; 
+}
+
+.paragrafo1 p{
+    color: #333;
+}
+
+/*Conteúdo 02*/
+.conteudo2-container{
+    background-color: #333;
+    width: 100%;
+    padding: 2em 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo2-itens{
+    width: 25%;
+    height: auto;
+    /* padding: 20px 10px; */
+    background-color: rgb(240, 240, 240);
+}
+
+.conteudo2-itens img{
+    width: 100%;
+    height: 300px;
+}
+
+/*Animação da imagem*/
+.conteudo2-itens img:hover{
+    filter: saturate(0);
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.conteudo2-itens h2{
+    font-weight: 200;
+}
+
+.conteudo2-itens p{
+    padding: 20px 30px;
+    color: #333;
+}
+
+/*Conteúdo3*/
+.conteudo3-container{
+    padding: 5em 10em;
+}
+
+.conteudo3-container p{
+    color: #333;
+    padding-top: 20px;
+}
+
+/*Conteúdo4*/
+.conteudo4-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo4-itemE{
+    background-color: rgb(27, 126, 139);
+    padding: 3em 5em;
+    width: 50%;
+}
+
+.conteudo4-itemD{
+    background-color: rgb(38, 27, 129);
+    padding: 3em 5em;
+    width: 50%;
+}
+
+.conteudo4-itemD h2, .conteudo4-itemE h2{
+    color: aliceblue;
+}
+/*Conteúdo5*/
+.conteudo5-container{
+    background-color: #333;
+    width: 100%;
+    height: 70px;
+}
+
+.conteudo5-container p{
+    line-height: 70px;
+    font-size: 16px;
+}
